@@ -1,0 +1,119 @@
+
+body{
+    margin: auto 0;
+    font-family: Arial;
+}
+.zone {
+   /* padding:30px 50px;
+    margin:40px 60px;*/
+    cursor:pointer;
+    /*display:inline-block;*/
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.main-nav{
+    display: flex; 
+    list-style: none;
+    margin: 0;
+    font-size: 0.7em;
+    
+    
+}
+
+@media only screen and (max-width: 600px){
+    .main-nav{
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+.push{
+    margin-left: auto;
+}
+
+
+li{
+    padding: 20px;
+}
+
+
+
+
+a{
+    color: #f5f5f6;
+    text-decoration: none;
+}
+
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.cover{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cov{
+   width: 30rem;
+}
+
+.folder{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns:repeat(auto-fill,minmax(350px,1fr)) ;
+}
+
+.box{
+    background-color: #061639;
+    padding: 100px;
+    margin: 30px;
+}
+
+.box > img{
+
+    width: 100%;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: #444;
+}
+
+
+
+.box:hover{
+
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+
+}
+
+.new{
+    background-color: #7887AB;
+}
+
+.set{
+    background-color: #162956;
+}
